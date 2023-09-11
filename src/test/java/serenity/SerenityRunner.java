@@ -5,6 +5,6 @@ import net.serenitybdd.cucumber.CucumberWithSerenity;
 import org.junit.runner.RunWith;
 
 @RunWith(CucumberWithSerenity.class)
-@CucumberOptions(features = "src/test/resources/features/Serenity/Serenity.feature", glue = {"serenity"}, tags = "@Dofus")
+@CucumberOptions(features = "src/test/resources/features/Serenity/bugfus.feature", glue = {"serenity"}, tags = "@Dofus")
 public class SerenityRunner {
 }
