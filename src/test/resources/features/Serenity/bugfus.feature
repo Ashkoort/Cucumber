@@ -4,5 +4,7 @@ Feature: Test des bug du site dofus
     And Un utilisateur accepte tout les cookies dofus
     And Un utilisateur clique sur continuer
 
-#  @Dofus
-#  Scenario:
+  @Dofus
+  Scenario: Tutoriel
+    When Un utilisateur clique sur Apprendre à jouer
+    Then Un utilisateur arrive sur le forum des tutoriels
