@@ -5,6 +5,11 @@ Feature: Test des bug du site dofus
     And Un utilisateur clique sur continuer
 
   @Dofus
+  Scenario: Tutoriel
+    When Un utilisateur clique sur Apprendre à jouer
+    Then Un utilisateur arrive sur le forum des tutoriels
+    
+  @Dofus
   Scenario: Boutique
     When Un utilisateur clique sur Boutique  en haut à droite de la page
     Then Il arrive sur le site de la boutique
