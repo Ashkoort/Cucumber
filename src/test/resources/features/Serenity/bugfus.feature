@@ -4,5 +4,7 @@ Feature: Test des bug du site dofus
     And Un utilisateur accepte tout les cookies dofus
     And Un utilisateur clique sur continuer
 
-#  @Dofus
-#  Scenario:
+  @Dofus
+  Scenario: Boutique
+    When Un utilisateur clique sur Boutique  en haut à droite de la page
+    Then Il arrive sur le site de la boutique
