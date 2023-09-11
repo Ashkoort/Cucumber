@@ -67,3 +67,11 @@ Feature: Site M2iformation
     Examples:
       | prix   |
       | "2000" |
+
+  Rule: Et puis nouvelle règle
+
+  @Decathlon
+  Scenario Outline: Ceci est un test alakon du logo decat
+    Given Un utilisateur sur le site "https://www.decathlon.fr/"
+    When Il accepte les cookies
+
