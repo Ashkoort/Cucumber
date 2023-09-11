@@ -10,11 +10,10 @@ import org.junit.Assert;
 import java.time.temporal.ChronoUnit;
 import java.util.ArrayList;
 
-public class MyStepdefs extends PageObject {
+public class goToStore extends PageObject {
 
     @FindBy(xpath = "//a[@class=\"external\"]")
     WebElementFacade inputStore;
-    //button[@class="btn btn-lg btn-primary mb-3"]
     @FindBy(xpath = "//button[@class=\"btn btn-lg btn-primary mb-3\"]")
     WebElementFacade inputCookieStore;
     @FindBy(xpath = "//div[contains(@class, \"title\") and contains(text(),\"boutique Dofus\")]")
